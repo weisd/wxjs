@@ -1,12 +1,15 @@
 
 <html>
     <head>
-            <!-- <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script> -->
+            <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
             <meta http-equiv=Content-Type content=texthtml; charset=utf-8 >
     </head>
    <body>
-       <div>test</div>
+       <div id="aaa">test</div>
        <iframe src="http://www.baidu.com" width="100" height="100"></iframe>
+       <script>
+       $('#aaa').load("http://www.baidu.com")
+       </script>
    </body>
    
 </html>
